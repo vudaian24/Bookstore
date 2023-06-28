@@ -1,0 +1,150 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
+        <div class="pt-7 pb-6 bg-cover" style="background-image: url('../assets/img/header-orange-purple.jpg'); background-position: bottom;"></div>
+        <div class="container">
+            <div class="card card-body py-2 bg-transparent shadow-none">
+                <div class="row">
+                    <div class="col-auto my-auto">
+                        <div class="h-100 renderName">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-3 py-3">
+            <div class="row">
+                <div class="col-12 col-xl-12 mb-12">
+                    <div class="card border shadow-xs h-100">
+                        <div class="card-header pb-0 p-3">
+                            <div class="row">
+                                <div class="col-md-12 col-12 text-end">
+                                    <button type="button" class="btn btn-white btn-icon px-2 py-2" onclick="return getById()">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-12.15 12.15a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32L19.513 8.2z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-3">
+                            <ul class="list-group renderData">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="modal js-modal" id="form_modal">
+    <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <header class="modal-Header">
+            Thông tin quản lý
+        </header>
+
+        <div class="modal-body">
+            <form id="InfoForm" method="post">
+                <input type="number" id="id" class="modal-input d-none" placeholder="Mã quản lý">
+                <input type="text" id="name" class="modal-input" placeholder="Tên quản lý">
+                <input type="text" id="numberPhone" class="modal-input" placeholder="Số điện thoại">
+                <input type="text" id="address" class="modal-input" placeholder="Địa chỉ">
+
+                <button type="button" id="btn_update" class="btn_submit" onclick="return update()">Sửa</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    const add_active = document.getElementById('add_Active-profile');
+    add_active.classList.add('active');
+
+    $(document).ready(function () {
+        loadData();
+    });
+
+    function loadData() {
+        $.ajax({
+            url: "/Profile/GetAdmin",
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            success: function (result) {
+                var dataName = '';
+                dataName += '<h3 class="mb-0 font-weight-bold">' + result.name + '</h3>';
+                $('.renderName').html(dataName);
+
+                var data = '';
+                data += '<li class="list-group-item border-0 ps-0 text-dark font-weight-semibold pb-1 text-sm"><span class="text-secondary">Tên quản lý:</span> &nbsp; ' + result.name + '</li>';
+                data += '<li class="list-group-item border-0 ps-0 text-dark font-weight-semibold pb-1 text-sm"><span class="text-secondary">Số điện thoại:</span> &nbsp; ' + result.numberPhone + '</li>';
+                data += '<li class="list-group-item border-0 ps-0 text-dark font-weight-semibold pb-1 text-sm"><span class="text-secondary">Email:</span> &nbsp; ' + result.email + '</li>';
+                data += '<li class="list-group-item border-0 ps-0 text-dark font-weight-semibold pb-1 text-sm"><span class="text-secondary">Địa chỉ:</span> &nbsp; ' + result.address + '</li>';
+                $('.renderData').html(data);
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+    }
+
+    function getById() {
+        $.ajax({
+            url: "/Profile/GetAdmin",
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            success: function (result) {
+                $("#id").val(result.id);
+                $("#name").val(result.name);
+                $("#numberPhone").val(result.numberPhone);
+                $("#address").val(result.address);
+                //hiển thị modal
+                $("#form_modal").addClass("open");
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+    }
+
+    function update() {
+        const Id = document.getElementById('id').value;
+        const Name = document.getElementById('name').value;
+        const NumberPhone = document.getElementById('numberPhone').value;
+        const Address = document.getElementById('address').value;
+        if (Name == "" || NumberPhone == "" || Address == "") {
+            showInfoToast("Các trường không được để trống!");
+        } else {
+            $.ajax({
+                url: "/Profile/Update",
+                type: "POST",
+                data: {
+                    id: Id,
+                    name: Name,
+                    numberPhone: NumberPhone,
+                    address: Address
+                },
+                success: function (result) {
+                    loadData();
+                    $("#form_modal").removeClass("open");
+                    //Reset form
+                    resetForm();
+                    showSuccessToast("Cập nhật thành công quản lý!");
+                },
+                error: function (error) {
+                    console.log("Error: " + error.responseText);
+                }
+            });
+        }
+    }
+
+
+</script>

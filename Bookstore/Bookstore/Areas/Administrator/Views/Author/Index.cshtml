@@ -1,0 +1,278 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <div class="container-fluid py-4 px-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="card border shadow-xs mb-4">
+                    <div class="card-header border-bottom pb-0">
+                        <div class="d-sm-flex align-items-center">
+                            <div>
+                                <h6 class="font-weight-semibold text-lg mb-0">Danh sách tác giả</h6>
+                            </div>
+                            <div class="ms-auto d-flex">
+                                <a href="#" type="button" class="btn btn-sm btn-dark btn-icon d-flex align-items-center me-2 js_showModal">
+                                    <span class="btn-inner--text">Thêm mới</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body px-0 py-0">
+                        <div class="border-bottom py-3 px-3 d-sm-flex align-items-center">
+                            <div class="input-group w-sm-25 ms-auto">
+                                <span class="input-group-text text-body">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                                    </svg>
+                                </span>
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        </div>
+                        <div class="table-responsive p-0">
+                            <table class="table align-items-center mb-0">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Tên tác giả</th>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Ngày sinh</th>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Thông tin chi tiết</th>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2"></th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tbody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="modal js-modal" id="form_modal">
+    <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <header class="modal-Header">
+            Thông tin tác giả
+        </header>
+
+        <div class="modal-body">
+            <form id="InfoForm" method="post">
+                <input type="number" id="authorId" class="modal-input d-none" placeholder="Mã tác giả">
+                <input type="text" id="authorName" class="modal-input" placeholder="Tên tác giả">
+                <input type="date" id="authorBirthDay" class="modal-input" placeholder="Ngày sinh">
+                <input type="text" id="authorDescription" class="modal-input" placeholder="Thông tin chi tiết">
+
+                <button type="button" id="btn_add" class="btn_submit" onclick="return add()">Thêm</button>
+                <button type="button" id="btn_update" class="btn_submit" onclick="return update()">Sửa</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    const add_active = document.getElementById('add_Active-author');
+    add_active.classList.add('active');
+
+    $(document).ready(function () {
+        loadData();
+    });
+
+    function loadData() {
+        $.ajax({
+            url: '/Author/List',
+            type: 'GET',
+            dataType: 'json',
+            success: function (result) {
+                var data = '';
+                $.each(result, function (key, item) {
+                    var date = new Date(item.birthDay);
+                    if (item.birthDay == "0001-01-01T00:00:00") {
+                        if (item.description == null || item.description == "") {
+                            data += '<tr>';
+                            data += '<td><p class="text-sm text-secondary mb-0">' + item.name + '</p></td>';
+                            data += '<td><p class="text-sm text-secondary mb-0">Chưa cập nhật</p></td>';
+                            data += '<td><p class="text-sm text-secondary mb-0">Chưa cập nhật</p></td>';
+                            data += '<td>';
+                            data += '<a href="#" class="text-secondary font-weight-bold text-xs" data-bs-toggle="tooltip" data-bs-title="Sửa" onclick="return getById(' + item.id + ')">Sửa</a>';
+                            data += '|';
+                            data += '<a href="#" class="text-secondary font-weight-bold text-xs" data-bs-toggle="tooltip" data-bs-title="Xóa" onclick="return deleteCate(' + item.id + ')">Xóa</a>';
+                            data += '</td>';
+                            data += '</tr>';
+                        } else {
+                            data += '<tr>';
+                            data += '<td><p class="text-sm text-secondary mb-0">' + item.name + '</p></td>';
+                            data += '<td><p class="text-sm text-secondary mb-0">Chưa cập nhật</p></td>';
+                            data += '<td><p class="text-sm text-secondary mb-0">' + item.description + '</p></td>';
+                            data += '<td>';
+                            data += '<a href="#" class="text-secondary font-weight-bold text-xs" data-bs-toggle="tooltip" data-bs-title="Sửa" onclick="return getById(' + item.id + ')">Sửa</a>';
+                            data += '|';
+                            data += '<a href="#" class="text-secondary font-weight-bold text-xs" data-bs-toggle="tooltip" data-bs-title="Xóa" onclick="return deleteCate(' + item.id + ')">Xóa</a>';
+                            data += '</td>';
+                            data += '</tr>';
+                        }
+                    } else {
+                        if (item.description == null || item.description == "") {
+                            var year = date.getFullYear();
+                            var month = ('0' + (date.getMonth() + 1)).slice(-2);
+                            var day = ('0' + date.getDate()).slice(-2);
+                            data += '<tr>';
+                            data += '<td><p class="text-sm text-secondary mb-0">' + item.name + '</p></td>';
+                            data += '<td><p class="text-sm text-secondary mb-0">' + day + '/' + month + '/' + year + '</p></td>';
+                            data += '<td><p class="text-sm text-secondary mb-0">Chưa cập nhật</p></td>';
+                            data += '<td>';
+                            data += '<a href="#" class="text-secondary font-weight-bold text-xs" data-bs-toggle="tooltip" data-bs-title="Sửa" onclick="return getById(' + item.id + ')">Sửa</a>';
+                            data += '|';
+                            data += '<a href="#" class="text-secondary font-weight-bold text-xs" data-bs-toggle="tooltip" data-bs-title="Xóa" onclick="return deleteCate(' + item.id + ')">Xóa</a>';
+                            data += '</td>';
+                            data += '</tr>';
+                        } else {
+                            var year = date.getFullYear();
+                            var month = ('0' + (date.getMonth() + 1)).slice(-2);
+                            var day = ('0' + date.getDate()).slice(-2);
+                            data += '<tr>';
+                            data += '<td><p class="text-sm text-secondary mb-0">' + item.name + '</p></td>';
+                            data += '<td><p class="text-sm text-secondary mb-0">' + day + '/' + month + '/' + year + '</p></td>';
+                            data += '<td><p class="text-sm text-secondary mb-0">' + item.description + '</p></td>';
+                            data += '<td>';
+                            data += '<a href="#" class="text-secondary font-weight-bold text-xs" data-bs-toggle="tooltip" data-bs-title="Sửa" onclick="return getById(' + item.id + ')">Sửa</a>';
+                            data += '|';
+                            data += '<a href="#" class="text-secondary font-weight-bold text-xs" data-bs-toggle="tooltip" data-bs-title="Xóa" onclick="return deleteCate(' + item.id + ')">Xóa</a>';
+                            data += '</td>';
+                            data += '</tr>';
+                        }
+                    }
+
+                });
+                $('.tbody').html(data);
+            },
+            error: function (xhr, status, error) {
+                console.error(error);
+            }
+        });
+    }
+
+    function add() {
+
+        const authorName = document.getElementById('authorName').value;
+        const authorBirthDay = document.getElementById('authorBirthDay').value;
+        const authorDescription = document.getElementById('authorDescription').value;
+        
+        if (authorName == "") {
+            showInfoToast("Tên tác giả không được để trống!");
+        } else {
+            $.ajax({
+                url: "/Author/Add",
+                type: "POST",
+                data: {
+                    name: authorName,
+                    birthDay: authorBirthDay,
+                    description: authorDescription
+                },
+                success: function (result) {
+                    loadData();
+                    $("#form_modal").removeClass("open");
+                    $("#btn_update").removeClass("d-none");
+                    //Reset form
+                    resetForm();
+                    showSuccessToast("Thêm thành công tác giả!");
+                },
+                error: function (error) {
+                    console.log("Error: " + error.responseText);
+                }
+            });
+        }
+    }
+
+    function update() {
+        const authorId = document.getElementById('authorId').value;
+        const authorName = document.getElementById('authorName').value;
+        const authorBirthDay = document.getElementById('authorBirthDay').value;
+        const authorDescription = document.getElementById('authorDescription').value;
+        if (authorName == "") {
+            showInfoToast("Tên tác giả không được để trống!");
+        } else {
+            $.ajax({
+                url: "/Author/Update",
+                type: "POST",
+                data: {
+                    id: authorId,
+                    name: authorName,
+                    birthDay: authorBirthDay,
+                    description: authorDescription
+                },
+                success: function (result) {
+                    loadData();
+                    $("#form_modal").removeClass("open");
+                    $("#btn_add").removeClass("d-none");
+                    //Reset form
+                    resetForm();
+                    showSuccessToast("Cập nhật thành công tác giả!");
+                },
+                error: function (error) {
+                    console.log("Error: " + error.responseText);
+                }
+            });
+        }
+    }
+
+    function getById(id) {
+        $.ajax({
+            url: "/Author/GetById",
+            data: { id: id },
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            success: function (result) {
+                var myDate = new Date(result.birthDay);
+                myDate.setDate(myDate.getDate() + 1);
+                var myDateString = myDate.toISOString().slice(0, 10);
+                document.getElementById('authorBirthDay').value = myDateString;
+                $("#authorId").val(result.id);
+                $("#authorName").val(result.name);
+                $("#authorDescription").val(result.description);
+                //hiển thị modal
+                $("#form_modal").addClass("open");
+                $("#btn_add").addClass("d-none");
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+    }
+
+    function deleteCate(id) {
+        console.log(id);
+        showModalWithButtons({
+            title: "Thông báo",
+            message: "Bạn có chắc chắn xóa không?",
+            yesContent: "Có",
+            noContent: "Không",
+            onYes: function () {
+                $.ajax({
+                    url: "/Author/Delete",
+                    data: { id: id },
+                    type: "GET",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "JSON",
+                    success: function (result) {
+                        if (result.success) {
+                            loadData();
+                            showSuccessToast("Xóa thành công tác giả!");
+                        }
+                    },
+                });
+            },
+            onNo: function () {
+                console.log("User clicked No");
+            }
+        });
+    }
+
+</script>

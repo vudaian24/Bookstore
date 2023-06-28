@@ -1,0 +1,218 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section id="billboard">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <button class="prev slick-arrow">
+                    <i class="icon icon-arrow-left"></i>
+                </button>
+
+                <div class="main-slider pattern-overlay">
+                    <div class="slider-item">
+                        <div class="banner-content">
+                            <h2 class="banner-title">Life of the Wild</h2>
+                            <p>
+                                "Life of the Wild" là một cuốn sách có thể được mô tả như một hành trình sâu sắc vào thế giới hoang dã và động vật hoang dã.
+                            </p>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn btn-outline-accent btn-accent-arrow">
+                                    Xem thêm<i class="icon icon-ns-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="/assetsUser/images/main-banner1.jpg"
+                             alt="banner"
+                             class="banner-image" />
+                    </div>
+                    <div class="slider-item">
+                        <div class="banner-content">
+                            <h2 class="banner-title">Birds gonna be Happy</h2>
+                            <p>
+                                "Birds gonna be Happy" cung cấp thông tin và hiểu biết sâu sắc về cuộc sống của loài chim trong môi trường tự nhiên.
+                            </p>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn btn-outline-accent btn-accent-arrow">
+                                    Xem thêm<i class="icon icon-ns-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="/assetsUser/images/main-banner2.jpg"
+                             alt="banner"
+                             class="banner-image" />
+                    </div>
+                </div>
+                <button class="next slick-arrow">
+                    <i class="icon icon-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="featured-books">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header align-center">
+                    <h2 class="section-title">Sách nổi bật</h2>
+                </div>
+
+                <div class="product-list" data-aos="fade-up">
+                    <div class="row render_top-book">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="btn-wrap align-right">
+                    <a href="/User/BookList/Index" class="btn-accent-arrow">
+                        Xem tất cả <i class="icon icon-ns-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="best-selling" class="leaf-pattern-overlay">
+    <div class="corner-pattern-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure class="products-thumb">
+                        </figure>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="product-entry">
+                            <h2 class="section-title divider">Sách bán chạy</h2>
+                            <div class="products-content">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="download-app" class="leaf-pattern-overlay">
+    <div class="corner-pattern-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="row">
+                    <div class="col-md-5">
+                        <figure>
+                            <img src="/assetsUser/images/device.png" alt="phone" class="single-image" />
+                        </figure>
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="app-info">
+                            <h2 class="section-title divider">Tải ứng dụng về điện thoại!</h2>
+                            <p>
+                                "Khám phá thế giới hoang dã, mở rộng tâm trí của bạn"
+                            </p>
+                            <div class="google-app">
+                                <img src="/assetsUser/images/google-play.jpg" alt="google play" />
+                                <img src="/assetsUser/images/app-store.jpg" alt="app store" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript">
+    const add_active = document.getElementById('homePage');
+    add_active.classList.add('active');
+
+    $(document).ready(function () {
+        loadData();
+    });
+
+    function loadData() {
+        $.ajax({
+            url: '/Home/GetBookList',
+            type: 'GET',
+            contentType: 'application/json;charset=utf-8',
+            dataType: 'JSON',
+            success: function (result) {
+                var topMax = result.sort(function (a, b) {
+                    return b.price - a.price;
+                }).slice(0, 4);
+
+                var data = '';
+                $.each(topMax, function (key, item) {
+                    data += '<div class="col-md-3">';
+                    data += '<figure class="product-style">';
+                    data += '<img src="' + item.image + '" alt="Books" class="product-item" />';
+                    data += '<button type="button" class="add-to-cart" data-product-tile="add-to-cart" onclick="return AddToCart(' + result.bookId + ')">Thêm giỏ hàng </button>';
+                    data += '<figcaption>';
+                    data += '<h3>' + item.bookName + '</h3>';
+                    data += '<div class="item-price">' + item.price + ' VND</div>';
+                    data += '</figcaption>';
+                    data += '</figure>';
+                    data += '</div>';
+                });
+                $('.render_top-book').html(data);
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+
+        $.ajax({
+            url: '/Home/GetBestSellingBook',
+            type: 'GET',
+            contentType: 'application/json;charset=utf-8',
+            dataType: 'JSON',
+            success: function (result) {
+                var dataImg = '';
+                dataImg += '<img src="' + result.image + '" alt="book" class="single-image" />';
+                $('.products-thumb').html(dataImg);
+
+                var dataContent = '';
+                dataContent += '<h3 class="item-title">' + result.bookName + '</h3>';
+                dataContent += '<div class="item-price">' + result.price + ' VND</div>';
+                dataContent += '<div class="btn-wrap">';
+                dataContent += '<a href="#" class="btn-accent-arrow" onclick="return AddToCart(' + result.bookId + ')"> Thêm vào giỏ hàng <i class="icon icon-ns-arrow-right"></i></a>';
+                dataContent += '</div>';
+                $('.products-content').html(dataContent);
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+    }
+
+    function UrlToSession(event) {
+        event.preventDefault();
+
+        var url = event.currentTarget.getAttribute("href");
+
+        $.ajax({
+            type: "POST",
+            url: "/Login/SaveReturnUrlToSession",
+            data: { url: url },
+            success: function (response) {
+                console.log("URL saved to session");
+                window.location.href = url;
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }
+</script>

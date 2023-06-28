@@ -1,0 +1,146 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Đăng nhập</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="~/assetLogin/images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/assetLogin/vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/assetLogin/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/assetLogin/fonts/iconic/css/material-design-iconic-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/assetLogin/vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/assetLogin/vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/assetLogin/vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/assetLogin/vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/assetLogin/vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/assetLogin/css/util.css">
+	<link rel="stylesheet" type="text/css" href="~/assetLogin/css/main.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js" integrity="sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link href="~/css/toast.css" rel="stylesheet" />
+	<!--===============================================================================================-->
+</head>
+<body>
+	<div id="toast"></div>
+	<div class="limiter">
+		<div class="container-login100" style="background-image:url('/assetLogin/images/bg-01.jpg')">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+				<form class="login100-form validate-form" id="loginForm">
+					<span class="login100-form-title p-b-49">
+						Đăng nhập
+					</span>
+					<div class="wrap-input100 validate-input m-b-23" data-validate="Email không được để trống">
+						<span class="label-input100">Email</span>
+						<input class="input100" id="Email" type="email" name="email" placeholder="Nhập email...">
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Mật khẩu không được  để trống">
+						<span class="label-input100">Mật khẩu</span>
+						<input class="input100" id="Password" type="password" name="pass" placeholder="Nhập mật khẩu...">
+						<span class="focus-input100" data-symbol="&#xf190;"></span>
+					</div>
+					<div class="text-right p-t-8 p-b-31">
+					</div>
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn" type="submit">
+								Đăng nhập
+							</button>
+						</div>
+					</div>
+				</form>
+				<div class="flex-col-c p-t-155">
+					<a href="/Register/Index" class="txt2">
+						Đăng ký
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="dropDownSelect1"></div>
+	<script>
+		$(document).ready(function () {
+			$("#loginForm").submit(function (event) {
+				event.preventDefault();
+				var email = $("#Email").val();
+				var password = $("#Password").val();
+
+				console.log(email);
+				console.log(password);
+
+				$.ajax({
+					type: "POST",
+					url: "/Login/Index	",
+					data: { email: email, password: password },
+					success: function (result) {
+						if (result.success) {
+							$.ajax({
+								type: "GET",
+								url: "/Login/Index",
+								dataType: "json",
+								success: function (response) {
+									var returnUrl = response;
+									console.log(returnUrl);
+									if (returnUrl == null) {
+										showSuccessToast("Đăng nhập thành công!");
+										window.location.href = "/Home/Index";
+									}
+									else {
+										window.location.href = returnUrl;
+									}
+								},
+								error: function (error) {
+									console.log(error);
+								}
+							});
+							
+						} else {
+							// Hiển thị thông báo lỗi
+							showErrorToast("Tài khoản hoặc mật khẩu sai!");
+						}
+					},
+					error: function (e) {
+						// Hiển thị thông báo lỗi
+						console.log(e.responseText)
+					}
+				});
+			});
+		});
+	</script>
+
+	<!--===============================================================================================-->
+	<script src="~/assetLogin/vendor/jquery/jquery-3.2.1.min.js"></script>
+
+	<script src="~/js/toast.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/assetLogin/vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/assetLogin/vendor/bootstrap/js/popper.js"></script>
+	<script src="~/assetLogin/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/assetLogin/vendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/assetLogin/vendor/daterangepicker/moment.min.js"></script>
+	<script src="~/assetLogin/vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/assetLogin/vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="~/assetLogin/js/main.js"></script>
+
+</body>
+</html>

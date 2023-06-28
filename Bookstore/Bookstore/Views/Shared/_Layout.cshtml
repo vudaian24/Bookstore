@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book Store</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <link href="~/css/toast.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/assetsUser/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="~/assetsUser/icomoon/icomoon.css" />
+    <link rel="stylesheet" type="text/css" href="~/assetsUser/css/vendor.css" />
+    <link rel="stylesheet" type="text/css" href="~/assetsUser/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js" integrity="sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/assetsUser/js/modernizr.js"></script>
+</head>
+<body>
+    <div id="toast"></div>
+
+
+    <div id="header-wrap">
+        <div class="top-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="right-element">
+                            <a href="/Cart/Index" class="cart for-buy"><i class="icon icon-clipboard"></i><span>Giỏ hàng</span></a>
+                            <div class="action-menu">
+                                <div class="search-bar">
+                                    <a href="#"
+                                       class="search-button search-toggle"
+                                       data-selector="#header-wrap">
+                                        <i class="icon icon-search"></i>
+                                    </a>
+                                    <form role="search" method="get" class="search-box">
+                                        <input class="search-field text search-input"
+                                               placeholder="Search"
+                                               type="search" />
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="action-menu showInfoCustomer">
+                                <a href="/Login/Index" class="user-account for-buy login title_SignIn" onclick="saveUrlToSession(event)"><i class="icon icon-user"></i><span>Tài khoản</span></a>
+                            </div>
+                        </div>
+                        <!--top-right-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--top-content-->
+
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-2">
+                        <div class="main-logo">
+                            <a href="/Home/Index">
+                                <img src="/assetsUser/images/main-logo.png" alt="logo" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10 cthol-xs-10">
+                        <nav id="navbar">
+                            <div class="main-menu stellarnav">
+                                <ul class="menu-list">
+                                    <li class="menu-item" id="homePage">
+                                        <a href="/Home/Index" class="nav-link">Trang chủ</a>
+                                    </li>
+                                    <li class="menu-item" id="bookList">
+                                        <a href="/BookList/Index" class="nav-link">Sách</a>
+                                    </li>
+                                    <li class="menu-item" id="news">
+                                        <a href="/NewsList/Index" class="nav-link">Tin tức</a>
+                                    </li>
+                                    <li class="menu-item" id="contact">
+                                        <a href="/Contact/Index" class="nav-link">Liên hệ</a>
+                                    </li>
+                                </ul>
+
+                                <div class="hamburger">
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    @RenderBody()
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-item">
+                        <div class="company-brand">
+                            <img src="~/assetsUser/images/main-logo.png"
+                                 alt="logo"
+                                 class="footer-logo" />
+                            <p>
+                                Là đối tác với nhiều công ty và nhà xuất bản lớn,
+                                chúng tôi là một công ty sách nổi tiếng và đáng tin cậy,
+                                chuyên cung cấp một loạt các cuốn sách đa dạng và phong phú.
+                                Chúng tôi đặt mục tiêu là truyền cảm hứng và mang lại kiến thức
+                                cho khách hàng thông qua các tác phẩm văn học, sách học thuật, sách
+                                giáo dục, sách về nghệ thuật và nhiều thể loại khác.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="footer-menu">
+                        <h5>Discover</h5>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a href="/Home/Index">Trang chủ</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/BookList/Index">Sách</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/NewsList/Index">Tin tức</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/Contact/Index">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-menu">
+                        <h5>Hỗ trợ</h5>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a href="#">Email: mr.vuan24@gmail.com</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Số điện thoại: +84 9827 0233</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        $(document).ready(function () {
+            loadDataUser();
+        });
+
+        function loadDataUser() {
+            $.ajax({
+                url: "/Customer/GetUserInfo",
+                type: "GET",
+                contentType: 'application/json;charset=utf-8',
+                dataType: "JSON",
+                success: function (result) {
+                    var data = '';
+                    data += '<a href="#" class="user-account for-buy login title_SignIn" onclick="saveUrlToSession(event)"><i class="icon icon-user"></i><span>Xin chào: '+ result.name +'</span></a>';
+                    data += '<a href="#" class="user-account for-buy login title_SignIn" onclick="logout(event)"><span>Đăng xuất</span>';
+                    $('.title_SignIn').addClass('d-none');
+                    $('.showInfoCustomer').html(data);
+                },
+                error: function (error) {
+                    console.log("Error: " + error.responseText);
+                }
+            });
+        }
+
+        function logout() {
+            $.ajax({
+                type: 'POST',
+                url: '/Login/Logout',
+                dataType: 'json',
+                success: function (result) {
+                    window.location.href = "/Home/Index";
+                },
+                error: function (error) {
+                    console.log("Error: " + error.responseText);
+                }
+            });
+        }
+
+        function saveUrlToSession(event) {
+            var currentUrl = window.location.href;
+            $.ajax({
+                type: "POST",
+                url: "/Login/SaveReturnUrlToSession",
+                data: { url: currentUrl },
+                success: function (response) {
+                    console.log("URL saved to session");
+                    window.location.href = url;
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        }
+
+        function AddToCart(id) {
+            $.ajax({
+                url: "/Cart/AddToCart",
+                type: "POST",
+                data: {
+                    bookId: id
+                },
+                success: function (result) {
+                    if(result.success) {
+                        showSuccessToast("Thêm thành công vào giỏ hàng!");
+                    } else {
+                        window.location.href = result.error;
+                    }
+                },
+                error: function (error) {
+                    console.log("Error: " + error.responseText);
+                }
+            });
+        }
+    </script>
+
+    <script>
+        const showBtns = document.querySelectorAll('.js_showModal');
+        const modal = document.querySelector('.js-modal');
+        const modalContainer = document.querySelector('.js-modal-container');
+        const modalClose = document.querySelector('.js-modal-close');
+
+        function resetForm() {
+            document.getElementById('InfoForm').reset();
+        }
+
+        function showFormModal() {
+            modal.classList.add('open');
+        }
+
+        function hideFormModal() {
+            modal.classList.remove('open');
+        }
+
+        for (const showBtn of showBtns) {
+            showBtn.addEventListener('click', showFormModal);
+        }
+
+        modalClose.addEventListener('click', hideFormModal);
+
+        modal.addEventListener('click', hideFormModal);
+
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation();
+        })
+
+    </script>
+    <script src="~/js/toast.js"></script>
+    <script src="~/assetsUser/js/jquery-1.11.0.min.js"></script>
+    <script src="~/assetsUser/js/plugins.js"></script>
+    <script src="~/assetsUser/js/script.js"></script>
+</body>
+</html>

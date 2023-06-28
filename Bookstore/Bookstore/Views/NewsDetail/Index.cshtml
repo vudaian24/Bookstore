@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="padding-large">
+    <div class="container">
+        <div class="row renderNewsDetail">
+            
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+
+    
+
+    $(document).ready(function () {
+        loadData();
+    });
+
+    var currentUrl = window.location.href;
+    var newsId = currentUrl.substring(currentUrl.lastIndexOf('/') + 1);
+
+    function loadData() {
+        $.ajax({
+            url: '/NewsDetail/GetNewsId',
+            data: { id: newsId },
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            success: function (resultNews) {
+                var data = '';
+                data += '<div class="col-md-6">';
+                data += '<h3>'+ resultNews.title +'</h3>';
+                data += '<p>'+ resultNews.content +'</p>';
+                data += '</div>';
+                data += '<div class="col-md-6">';
+                data += '<img class="news_Image" src="'+ resultNews.image +'" alt="">';
+                data += '</div>';
+                $('.renderNewsDetail').html(data);
+            }
+        });
+    }
+
+    function UrlToSession(event) {
+        event.preventDefault();
+
+        var url = event.currentTarget.getAttribute("href");
+
+        $.ajax({
+            type: "POST",
+            url: "/Login/SaveReturnUrlToSession",
+            data: { url: url },
+            success: function (response) {
+                console.log("URL saved to session");
+                window.location.href = url;
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }
+
+</script>

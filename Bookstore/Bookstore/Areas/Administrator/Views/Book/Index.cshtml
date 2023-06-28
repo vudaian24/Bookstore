@@ -1,0 +1,277 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <div class="container-fluid py-4 px-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="card border shadow-xs mb-4">
+                    <div class="card-header border-bottom pb-0">
+                        <div class="d-sm-flex align-items-center">
+                            <div>
+                                <h6 class="font-weight-semibold text-lg mb-0">Danh sách sách</h6>
+                            </div>
+                            <div class="ms-auto d-flex">
+                                <a href="#" type="button" class="btn btn-sm btn-dark btn-icon d-flex align-items-center me-2 js_showModal">
+                                    <span class="btn-inner--text">Thêm mới</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body px-0 py-0">
+                        <div class="border-bottom py-3 px-3 d-sm-flex align-items-center">
+                            <div class="input-group w-sm-25 ms-auto">
+                                <span class="input-group-text text-body">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                                    </svg>
+                                </span>
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        </div>
+                        <div class="table-responsive p-0">
+                            <table class="table align-items-center mb-0">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Tên sách</th>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Loại sách</th>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Tác giả</th>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Nhà xuất bản</th>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Giá</th>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Ảnh</th>
+                                        <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2"></th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tbody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="modal js-modal" id="form_modal">
+    <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+        <header class="modal-Header">
+            Thông tin sách
+        </header>
+        <div class="modal-body">
+            <form id="InfoForm" method="post">
+                <input type="number" id="bookId" class="modal-input d-none" placeholder="Mã sách">
+                <input type="text" id="bookName" class="modal-input" placeholder="Tên sách">
+                <input type="text" id="bookCategory" class="modal-input" placeholder="Loại sách">
+                <input type="text" id="bookAuthor" class="modal-input" placeholder="Tác giả">
+                <input type="text" id="bookPublisher" class="modal-input" placeholder="Nhà xuất bản">
+                <input type="text" id="bookPrice" class="modal-input" placeholder="Giá">
+                <input type="text" id="bookImage" class="modal-input" placeholder="Ảnh">
+
+                <button type="button" id="btn_add" class="btn_submit" onclick="return add()">Thêm</button>
+                <button type="button" id="btn_update" class="btn_submit" onclick="return update()">Sửa</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    const add_active = document.getElementById('add_Active-book');
+    add_active.classList.add('active');
+
+    $(document).ready(function () {
+        loadData();
+    });
+
+    function loadData() {
+        $.ajax({
+            url: '/Book/GetBookList',
+            type: 'GET',
+            contentType: 'application/json;charset=utf-8',
+            dataType: 'JSON',
+            success: function (result) {
+                var data = '';
+                $.each(result, function (key, item) {
+                    data += '<tr>';
+                    data += '<td class="text-wrap"><p class="text-sm text-secondary mb-0">' + item.bookName +'</p></td>';
+                    data += '<td class="text-wrap"><p class="text-sm text-secondary mb-0">' + item.categoryName +'</p></td>';
+                    data += '<td class="text-wrap"><p class="text-sm text-secondary mb-0">' + item.authorName + '</p></td>';
+                    data += '<td class="text-wrap"><p class="text-sm text-secondary mb-0">' + item.publisherName + '</p></td>';
+                    data += '<td class="text-wrap"><p class="text-sm text-secondary mb-0">' + item.price + ' VND</p></td>';
+                    data += '<td class="text-wrap"><p class="text-sm text-secondary mb-0">' + item.image +'</p></td>';
+                    data += '<td class="text-wrap">';
+                    data += '<a href="#" class="text-secondary font-weight-bold text-xs" data-bs-toggle="tooltip" data-bs-title="Sửa" onclick="return getById(' + item.bookId + ')">Sửa</a>';
+                    data += '|';
+                    data += '<a href="#" class="text-secondary font-weight-bold text-xs" data-bs-toggle="tooltip" data-bs-title="Xóa" onclick="return deleteCate(' + item.bookId + ')">Xóa</a>';
+                    data += '</td>';
+                    data += '</tr>';
+                });
+                $('.tbody').html(data);
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+    }
+
+    function add() {
+        var bookName = document.getElementById('bookName').value;
+        var bookCategory = document.getElementById('bookCategory').value;
+        var bookAuthor = document.getElementById('bookAuthor').value;
+        var bookPublisher = document.getElementById('bookPublisher').value;
+        var bookPrice = document.getElementById('bookPrice').value;
+        var bookImage = document.getElementById('bookImage').value;
+
+        if (bookName == null || bookCategory == null || bookAuthor == null ||
+            bookPublisher == null || bookPrice == null || bookImage == null) {
+            alert("Không được để trống các trường nhập dữ liệu");
+        } else {
+            $.ajax({
+                url: '/Book/Add',
+                type: 'POST',
+                data: {
+                    bookName: bookName,
+                    bookCategory: bookCategory,
+                    bookAuthor: bookAuthor,
+                    bookPublisher: bookPublisher,
+                    bookPrice: bookPrice,
+                    bookImage: bookImage
+                },
+                success: function (result) {
+                    if (result.success) {
+                        loadData();
+                        $("#form_modal").removeClass("open");
+                        $("#btn_update").removeClass("d-none");
+                        //Reset form
+                        resetForm();
+                        showSuccessToast(result.success);
+                    } else {
+                        showErrorToast(result.error);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    var errorMessage = '';
+
+                    if (xhr.responseJSON && xhr.responseJSON.error) {
+                        errorMessage = xhr.responseJSON.error;
+                    } else {
+                        errorMessage = 'Đã xảy ra lỗi.';
+                    }
+
+                    console.log('Lỗi khi thêm sách:', errorMessage);
+                }
+            });
+        }
+    }
+
+    function update() {
+        var bookId = document.getElementById('bookId').value;
+        var bookName = document.getElementById('bookName').value;
+        var bookCategory = document.getElementById('bookCategory').value;
+        var bookAuthor = document.getElementById('bookAuthor').value;
+        var bookPublisher = document.getElementById('bookPublisher').value;
+        var bookPrice = document.getElementById('bookPrice').value;
+        var bookImage = document.getElementById('bookImage').value;
+
+        if (bookName == null || bookCategory == null || bookAuthor == null ||
+            bookPublisher == null || bookPrice == null || bookImage == null) {
+            alert("Không được để trống các trường nhập dữ liệu");
+        } else {
+            $.ajax({
+                url: '/Book/Update',
+                type: 'POST',
+                data: {
+                    bookId: bookId,
+                    bookName: bookName,
+                    bookCategory: bookCategory,
+                    bookAuthor: bookAuthor,
+                    bookPublisher: bookPublisher,
+                    bookPrice: bookPrice,
+                    bookImage: bookImage
+                },
+                success: function (result) {
+                    if (result.success) {
+                        loadData();
+                        $("#form_modal").removeClass("open");
+                        $("#btn_add").removeClass("d-none");
+                        //Reset form
+                        resetForm();
+                        showSuccessToast(result.success);
+                    } else {
+                        showErrorToast(result.error);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    var errorMessage = '';
+
+                    if (xhr.responseJSON && xhr.responseJSON.error) {
+                        errorMessage = xhr.responseJSON.error;
+                    } else {
+                        errorMessage = 'Đã xảy ra lỗi.';
+                    }
+
+                    console.log('Lỗi khi cập nhật sách:', errorMessage);
+                }
+            });
+        }
+    }
+
+    function getById(id) {
+        $.ajax({
+            url: "/Book/GetById",
+            data: { id: id },
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            success: function (result) {
+                $("#bookId").val(result.bookId);
+                $("#bookName").val(result.bookName);
+                $("#bookCategory").val(result.categoryName);
+                $("#bookAuthor").val(result.authorName);
+                $("#bookPublisher").val(result.publisherName);
+                $("#bookPrice").val(result.price);
+                $("#bookImage").val(result.image);
+                //hiển thị modal
+                $("#form_modal").addClass("open");
+                $("#btn_add").addClass("d-none");
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+    }
+
+    function deleteCate(id) {
+        showModalWithButtons({
+            title: "Thông báo",
+            message: "Bạn có chắc chắn xóa không?",
+            yesContent: "Có",
+            noContent: "Không",
+            onYes: function () {
+                $.ajax({
+                    url: "/Book/Delete",
+                    data: { id: id },
+                    type: "GET",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "JSON",
+                    success: function (result) {
+                        showSuccessToast("Xóa thành công sách!")
+                        loadData();
+                    },
+                    error: function (e) {
+                        alert(e.responseText);
+                    }
+                });
+            },
+            onNo: function () {
+                console.log("User clicked No");
+            }
+        });
+    }
+
+</script>

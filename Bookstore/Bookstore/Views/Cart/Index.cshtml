@@ -1,0 +1,196 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="padding-large">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+                <h3>Giỏ hàng</h3>
+                <table class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th>Tên sách</th>
+                            <th>Giá (VND)</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+                        @*<tr>
+                            <td>Dave Gamache</td>
+                            <td>26</td>
+                            <td><a href="#">Xóa</a> | <a href="#" class="js_OpenModal">Mua</a></td>
+                        </tr>*@
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal js-modal" id="form_modal">
+    <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+            X
+        </div>
+
+        <header class="modal-Header">
+            Thông tin đơn hàng
+        </header>
+
+        <div class="modal-body renderInfo">
+            
+
+            
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        loadData();
+    });
+
+    function loadData() {
+        $.ajax({
+            url: '/Cart/List',
+            type: 'GET',
+            contentType: 'application/json;charset=utf-8',
+            dataType: 'JSON',
+            success: function (result) {
+                var data = '';
+                $.each(result, function (key, item) {
+                    data += '<tr>';
+                    data += '<td>'+ item.bookName +'</td>';
+                    data += '<td>'+ item.price +'</td>';
+                    data += '<td><a href="#" onclick="return DeleteById(' + item.bookId + ')">Xóa</a> | <a href="#" onclick="return getById(' + item.bookId + ')">Mua</a></td>';
+                    data += '</tr>';
+                });
+                $('.tbody').html(data);
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+    }
+
+    function getById(id) {
+        $.ajax({
+            url: "/Cart/GetById",
+            data: { id: id },
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            success: function (result) {
+                var data = '';
+                data += '<form id="InfoForm" method="post">';
+                data += '<input type="date" id="createdDate" class="modal-input d-none">';
+                data += '<label style="margin: 10px; font-size: 14px; opacity: 0.7;">Tên khách hàng: ' + result.customerName + '</label>';
+                data += '<label style="margin: 10px; font-size: 14px; opacity: 0.7;">Số điện thoại: ' + result.customerNumberPhone + '</label>';
+                data += '<label style="margin: 10px; font-size: 14px; opacity: 0.7;">Địa chỉ: ' + result.customerAddress + '</label>';
+                data += '<label style="margin: 10px; font-size: 14px; opacity: 0.7;">Tên sách: '+ result.bookName +'</label>';
+                data += '<div style="display: flex; align-items: center">';
+                data += '<label style="margin: 0 10px 0 10px; font-size: 14px; opacity: 0.7;">Số lượng</label>';
+                data += '<input id="quantity" type="number" style="width: 150px; height: 30px; margin: 0;" oninput="updateTotal(this, ' + result.bookPrice + ')">';
+                data += '</div>';
+                data += '<label id="totalLabel" style="margin: 10px; font-size: 14px; opacity: 0.7;">Tổng tiền: </label>'; 
+                data += '<button type="button" style="margin-bottom: -36px;" class="btn_submit" onclick="return order('+ result.cartId +')">Mua</button>';
+                data += '</form>';
+                $('.renderInfo').html(data);
+                var inputElement = document.getElementById("createdDate");
+                var currentDate = new Date();
+                inputElement.valueAsDate = currentDate;
+                //hiển thị modal
+                $("#form_modal").addClass("open");
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+    }
+
+    function updateTotal(input, price) {
+        var label = document.getElementById("totalLabel");
+        var number = parseInt(input.value);
+        if (!isNaN(number)) {
+            var total = number * price;
+            label.textContent = "Tổng tiền: " + total;
+        } else {
+            showInfoToast("Số lượng không được để trống!");
+        }
+    }
+
+    function order(id) {
+        const number = document.getElementById("quantity").value;
+        var createdDate = document.getElementById('createdDate').value;
+        let quantity = parseInt(number);
+
+        if (number == "") {
+            showInfoToast("Số lượng không được để trống!");
+        } else {
+            $.ajax({
+                url: '/Cart/Order',
+                type: 'POST',
+                data: {
+                    id: id,
+                    quantity: quantity,
+                    createdDate: createdDate,
+                },
+                success: function (result) {
+                    if (result.success) {
+                        showSuccessToast(result.success);
+                    } else {
+                        showErrorToast(result.error);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    var errorMessage = '';
+
+                    if (xhr.responseJSON && xhr.responseJSON.error) {
+                        errorMessage = xhr.responseJSON.error;
+                    } else {
+                        errorMessage = 'Đã xảy ra lỗi.';
+                    }
+                    console.log('Lỗi khi cập nhật sách:', errorMessage);
+                }
+            });
+        }
+    }
+
+    function DeleteById(id) {
+        $.ajax({
+            type: "POST",
+            url: "/Cart/Delete",
+            data: { id: id },
+            success: function (response) {
+                showSuccessToast("Xóa thành công");
+                loadData();
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }
+
+    function UrlToSession(event) {
+        event.preventDefault();
+
+        var url = event.currentTarget.getAttribute("href");
+
+        $.ajax({
+            type: "POST",
+            url: "/Login/SaveReturnUrlToSession",
+            data: { url: url },
+            success: function (response) {
+                console.log("URL saved to session");
+                window.location.href = url;
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }
+
+</script>

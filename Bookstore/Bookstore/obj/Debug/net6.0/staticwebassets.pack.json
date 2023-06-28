@@ -1,0 +1,2009 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Bookstore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bookstore.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\css\\main.css",
+      "PackagePath": "staticwebassets\\assetLogin\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\css\\util.css",
+      "PackagePath": "staticwebassets\\assetLogin\\css\\util.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\iconic\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\iconic\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\iconic\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\iconic\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\assetLogin\\fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\images\\bg-01.jpg",
+      "PackagePath": "staticwebassets\\assetLogin\\images\\bg-01.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\assetLogin\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\js\\main.js",
+      "PackagePath": "staticwebassets\\assetLogin\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\animsition\\css\\animsition.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\animsition\\css\\animsition.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\animsition\\css\\animsition.min.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\animsition\\css\\animsition.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\animsition\\js\\animsition.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\animsition\\js\\animsition.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\animsition\\js\\animsition.min.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\animsition\\js\\animsition.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\countdowntime\\countdowntime.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\countdowntime\\countdowntime.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\daterangepicker\\moment.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\daterangepicker\\moment.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetLogin\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\assetLogin\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assetsUser\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\assetsUser\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\css\\style.css",
+      "PackagePath": "staticwebassets\\assetsUser\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\css\\vendor.css",
+      "PackagePath": "staticwebassets\\assetsUser\\css\\vendor.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\assetsUser\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\assetsUser\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\assetsUser\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\assetsUser\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\assetsUser\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\icomoon\\icomoon.css",
+      "PackagePath": "staticwebassets\\assetsUser\\icomoon\\icomoon.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\assetsUser\\icomoon\\selection.json"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\app-store.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\app-store.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\banner.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\chocolat\\close.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\chocolat\\close.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\chocolat\\fullscreen-black.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\chocolat\\fullscreen-black.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\chocolat\\fullscreen.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\chocolat\\fullscreen.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\chocolat\\left.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\chocolat\\left.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\chocolat\\loader.gif",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\chocolat\\loader.gif"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\chocolat\\right.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\chocolat\\right.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\client-image1.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\client-image1.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\client-image2.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\client-image2.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\client-image3.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\client-image3.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\client-image4.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\client-image4.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\client-image5.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\client-image5.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\curly-divider.svg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\curly-divider.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\default.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\default.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\device.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\device.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\google-play.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\google-play.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\item.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\item.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\item1.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\item1.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\item3.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\item3.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\item4.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\item4.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\item5.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\item5.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\leaf.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\leaf.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\main-banner1.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\main-banner1.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\main-banner2.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\main-banner2.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\main-logo.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\main-logo.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\ns-arrow-right.svg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\ns-arrow-right.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\pattern1.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\pattern1.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\pattern2.png",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\pattern2.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\post-img1.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\post-img1.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\post-img2.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\post-img2.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\post-img3.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\post-img3.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\product-item1.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\product-item1.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\product-item2.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\product-item2.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\product-item3.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\product-item3.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\product-item4.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\product-item4.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\product-item5.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\product-item5.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\product-item6.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\product-item6.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\product-item7.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\product-item7.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\product-item8.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\product-item8.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\single-image.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\single-image.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\tab-item1.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\tab-item1.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\tab-item2.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\tab-item2.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\tab-item3.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\tab-item3.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\tab-item4.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\tab-item4.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\tab-item5.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\tab-item5.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\tab-item6.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\tab-item6.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\tab-item7.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\tab-item7.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\tab-item8.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\tab-item8.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\team-member2.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\team-member2.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\team-member3.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\team-member3.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\team-member5.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\team-member5.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\images\\team-member7.jpg",
+      "PackagePath": "staticwebassets\\assetsUser\\images\\team-member7.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\assetsUser\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\assetsUser\\js\\modernizr.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\assetsUser\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\js\\script.js",
+      "PackagePath": "staticwebassets\\assetsUser\\js\\script.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\js\\slideNav.js",
+      "PackagePath": "staticwebassets\\assetsUser\\js\\slideNav.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assetsUser\\js\\slideNav.min.js",
+      "PackagePath": "staticwebassets\\assetsUser\\js\\slideNav.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\css\\corporate-ui-dashboard.css",
+      "PackagePath": "staticwebassets\\assets\\css\\corporate-ui-dashboard.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\css\\corporate-ui-dashboard.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\corporate-ui-dashboard.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\css\\corporate-ui-dashboard.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\corporate-ui-dashboard.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\fonts\\nucleo.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.eot"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\fonts\\nucleo.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\fonts\\nucleo.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\fonts\\nucleo.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff2"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\3d-cube.png",
+      "PackagePath": "staticwebassets\\assets\\img\\3d-cube.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg1.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bruce-mars.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\corporate-ui-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\corporate-ui-logo.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\curved-images\\img-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\img-6.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\curved-images\\img-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\img-7.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\down-arrow-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-dark.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\down-arrow-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-white.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\down-arrow.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\header-blue-purple.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header-blue-purple.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\header-orange-purple.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header-orange-purple.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\image-sign-in.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\image-sign-in.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\image-sign-up.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\image-sign-up.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-4.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\img-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-5.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\img-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-8.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\img-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-9.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\logo-ct-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-ct-dark.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\logo-ct.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-ct.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\logos\\facebook-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\facebook-logo.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\logos\\google-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google-logo.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\logos\\mastercard-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\mastercard-white.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\logos\\mastercard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\mastercard.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\logos\\visa-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\visa-white.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\logos\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\visa.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\logos\\wifi-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\wifi-white.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\marie.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\marie.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\small-logos\\icon-sun-cloud.png",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\icon-sun-cloud.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\small-logos\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\small-logos\\logo-google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-google.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\small-logos\\logo-invision.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-invision.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\small-logos\\logo-jira.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-jira.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\small-logos\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-slack.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\small-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\small-logos\\logo-webdev.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-webdev.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\small-logos\\logo-xd.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-xd.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\team-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-5.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\team-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-6.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\angular.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\angular.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\bootstrap.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\bootstrap.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\dribbble.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\dribbble.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\dropbox.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\dropbox.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\mastercard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\mastercard.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\paypal.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\react.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\react.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\sketch.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\sketch.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\slack.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\slack.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\spotify.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\spotify.jpeg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\tim.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\tim.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\unass.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\unass.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\visa.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\img\\theme\\vue.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\vue.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\corporate-ui-dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\corporate-ui-dashboard.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\corporate-ui-dashboard.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\corporate-ui-dashboard.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\corporate-ui-dashboard.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\corporate-ui-dashboard.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\js\\plugins\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_avatars.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_dark-version.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_dropup.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_dropup.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_header.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_popovers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_popovers.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_rtl.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_tilt.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_tilt.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_tooltips.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_utilities-extend.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\cards\\card-background.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\custom\\_styles.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\custom\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_swiper.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\_swiper.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\theme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\theme.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_animations.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_cards.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_choices.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_header.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_misc.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_table.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\assets\\scss\\corporate-ui-dashboard\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\corporate-ui-dashboard\\variables\\_virtual-reality.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\css\\modalMessage.css",
+      "PackagePath": "staticwebassets\\css\\modalMessage.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\css\\toast.css",
+      "PackagePath": "staticwebassets\\css\\toast.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\js\\modalCart.js",
+      "PackagePath": "staticwebassets\\js\\modalCart.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\js\\modalMessage.js",
+      "PackagePath": "staticwebassets\\js\\modalMessage.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\js\\toast.js",
+      "PackagePath": "staticwebassets\\js\\toast.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\js\\validation.js",
+      "PackagePath": "staticwebassets\\js\\validation.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Web\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Bookstore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Bookstore.props",
+      "PackagePath": "build\\Bookstore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Bookstore.props",
+      "PackagePath": "buildMultiTargeting\\Bookstore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Bookstore.props",
+      "PackagePath": "buildTransitive\\Bookstore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,134 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="hero-section jarallax">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-title">Tất cả sách</h1>
+                <div class="breadcrumbs">
+                    <span class="item"><a href="index.html">Trang chủ /</a></span>
+                    <span class="item">Danh sách</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="latest-blog" class="scrollspy-section padding-large">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="post-grid">
+                    <div class="row render_BookList">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="pagination" id="pagination">
+
+</div>
+
+<script type="text/javascript">
+
+    var currentPage = 1;
+    var pageSize = 6;
+
+    const add_active = document.getElementById('bookList');
+    add_active.classList.add('active');
+
+    $(document).ready(function () {
+        loadData();
+    });
+
+    function loadData() {
+        $.ajax({
+            url: '/BookList/GetBookList',
+            type: 'GET',
+            contentType: 'application/json;charset=utf-8',
+            dataType: 'JSON',
+            success: function (result) {
+
+                var pageCount = Math.ceil(result.length / pageSize);
+
+                if (currentPage < 1) {
+                    currentPage = 1;
+                } else if (currentPage > pageCount) {
+                    currentPage = pageCount;
+                }
+
+                var startIndex = (currentPage - 1) * pageSize;
+                var endIndex = startIndex + pageSize;
+                var currentBook = result.slice(startIndex, endIndex);
+
+                var data = '';
+                $.each(currentBook, function (key, item) {
+                    data += '<div class="col-md-4">';
+                    data += '<article class="post-item">';
+                    data += '<figure>';
+                    data += '<a href="/BookDetail/Index/' + item.bookId +'" class="image-hvr-effect"><img src="' + item.image +'" alt="post" class="post-image"></a>';
+                    data += '</figure>';
+                    data += '<div class="post-content">';
+                    data += '<div class="row">';
+                    data += '<div class="meta-date col-md-6">' + item.authorName +'</div>';
+                    data += '<div class="meta-date col-md-6">' + item.price +' VND</div>';
+                    data += '</div>';
+                    data += '<h3 class="post-title"><a href="/BookDetail/Index/' + item.bookId +'">' + item.bookName +'</a></h3>';
+                    data += '</div>';
+                    data += '</article>';
+                    data += '</div>';
+                });
+                $('.render_BookList').html(data);
+                renderPagination(pageCount);
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+    }
+
+    function renderPagination(pageCount) {
+        var pagination = $('#pagination');
+        pagination.empty();
+
+        for (var i = 1; i <= pageCount; i++) {
+            var button = $('<button></button>').text(i);
+            if (i === currentPage) {
+                button.addClass('act');
+            }
+            pagination.append(button);
+        }
+    }
+
+    $('#pagination').on('click', 'button', function () {
+        currentPage = parseInt($(this).text());
+        loadData();
+    });
+
+    function UrlToSession(event) {
+        event.preventDefault();
+
+        var url = event.currentTarget.getAttribute("href");
+
+        $.ajax({
+            type: "POST",
+            url: "/Login/SaveReturnUrlToSession",
+            data: { url: url },
+            success: function (response) {
+                console.log("URL saved to session");
+                window.location.href = url;
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }
+
+</script>

@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-title">Liên hệ</h1>
+                <div class="breadcrumbs">
+                    <span class="item"><a href="index.html">Trang chủ /</a></span>
+                    <span class="item">Liên hệ</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-information padding-large mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-0 mb-3">
+                <h2>Thông tin về chúng tôi</h2>
+                <div class="contact-detail d-flex flex-wrap mt-4">
+                    <div class="detail mr-6 mb-4">
+                        <ul class="list-unstyled list-icon">
+                            <li><i class="icon icon-phone"></i>Số điện thoại: 0398270233</li>
+                            <li><i class="icon icon-envelope-o"></i><a href="mailto:info@yourcompany.com">mr.vuan24@gmail.com</a></li>
+                            <li><i class="icon icon-location2"></i>Hà Nội, Việt Nam</li>
+                        </ul>
+                    </div>
+                    <div class="detail mb-4">
+                        <h3>Mạng xã hội</h3>
+                        <div class="social-links flex-container">
+                            <a href="#" class="icon icon-facebook"></a>
+                            <a href="#" class="icon icon-twitter"></a>
+                            <a href="#" class="icon icon-pinterest-p"></a>
+                            <a href="#" class="icon icon-youtube"></a>
+                            <a href="#" class="icon icon-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 p-0">
+                <div class="contact-information">
+                    <h2>Gửi phản hồi</h2>
+                    <form name="contactform" action="contact.php" method="post" class="contact-form d-flex flex-wrap mt-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" minlength="2" name="name" placeholder="Tên khách hàng" class="u-full-width" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="email" placeholder="E-mail" class="u-full-width" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea class="u-full-width" name="message" placeholder="Message" style="height: 150px;" required></textarea>
+                                <button type="submit" name="submit" class="btn btn-full btn-rounded">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script>
+    const add_active = document.getElementById('contact');
+    add_active.classList.add('active');
+
+    function UrlToSession(event) {
+        event.preventDefault();
+
+        var url = event.currentTarget.getAttribute("href");
+
+        $.ajax({
+            type: "POST",
+            url: "/Login/SaveReturnUrlToSession",
+            data: { url: url },
+            success: function (response) {
+                console.log("URL saved to session");
+                window.location.href = url;
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }
+</script>

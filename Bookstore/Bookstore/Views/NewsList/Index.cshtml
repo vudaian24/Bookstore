@@ -1,0 +1,127 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="colored">
+                    <h1 class="page-title">Tin tức</h1>
+                    <div class="breadcum-items">
+                        <span class="item"><a href="index.html">Trang chủ /</a></span>
+                        <span class="item colored">Tin tức</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="padding-large">
+    <div class="container">
+        <div class="row">
+            <div class="products-grid grid showNewsList">
+                
+            </div>
+        </div>
+    </div>
+</section>
+<div class="pagination" id="pagination">
+
+</div>
+
+<script type="text/javascript">
+
+    const add_active = document.getElementById('news');
+    add_active.classList.add('active');
+
+    var currentPage = 1;
+    var pageSize = 6;
+
+    $(document).ready(function () {
+        loadData();
+    });
+
+    function loadData() {
+        $.ajax({
+            url: '/NewsList/List',
+            type: 'GET',
+            contentType: 'application/json;charset=utf-8',
+            dataType: 'JSON',
+            success: function (result) {
+
+                var pageCount = Math.ceil(result.length / pageSize);
+
+                if (currentPage < 1) {
+                    currentPage = 1;
+                } else if (currentPage > pageCount) {
+                    currentPage = pageCount;
+                }
+
+                var startIndex = (currentPage - 1) * pageSize;
+                var endIndex = startIndex + pageSize;
+                var currentNews = result.slice(startIndex, endIndex);
+
+                var data = '';
+                $.each(currentNews, function (key, item) {
+                    data += '<figure class="product-style">';
+                    data += '<a href="/NewsDetail/Index/' + item.id +'">';
+                    data += '<img src="' + item.image + '" alt="News" class="product-item">';
+                    data += '</a>';
+                    data += '<figcaption>';
+                    data += '<h3>'+ item.title +'</h3>';
+                    data += '<p class="text_line">'+ item.content +'</p>';
+                    data += '</figcaption>';
+                    data += '</figure>';
+                });
+                $('.showNewsList').html(data);
+
+                renderPagination(pageCount);
+            },
+            error: function (error) {
+                console.log("Error: " + error.responseText);
+            }
+        });
+    }
+
+    function renderPagination(pageCount) {
+        var pagination = $('#pagination');
+        pagination.empty();
+
+        for (var i = 1; i <= pageCount; i++) {
+            var button = $('<button></button>').text(i);
+            if (i === currentPage) {
+                button.addClass('act');
+            }
+            pagination.append(button);
+        }
+    }
+
+    $('#pagination').on('click', 'button', function () {
+        currentPage = parseInt($(this).text());
+        loadData();
+    });
+
+    function UrlToSession(event) {
+        event.preventDefault();
+
+        var url = event.currentTarget.getAttribute("href");
+
+        $.ajax({
+            type: "POST",
+            url: "/Login/SaveReturnUrlToSession",
+            data: { url: url },
+            success: function (response) {
+                console.log("URL saved to session");
+                window.location.href = url;
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }
+
+</script>
