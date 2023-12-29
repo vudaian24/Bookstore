@@ -18,7 +18,3 @@
 > - **Front end:** html, css, javascript, bootstrap.
 > - **Back end:** ASP.NET MVC, C#
 > - **Database:** SQL Server
-
-##Demo
-> - Dành cho khách hàng: http://vudaian2002-001-site1.itempurl.com/
-> - Dành cho quản trị viên: http://vudaian2002-001-site1.itempurl.com/Administrator/SignIn/Index (Email: vudaian24@gmail.com, Password: 24012002)
